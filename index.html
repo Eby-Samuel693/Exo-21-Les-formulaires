@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exo21</title>
+</head>
+<body>
+    <h1>les formulaires 21</h1>
+    <form action="coquelet.samuel@gmail.com" enctype="text/plain" method="get">
+        <div>
+            <label for="text">Votre message</label>
+            <textarea id="text" message="message" name="user_message"></textarea>
+        </div>
+        <div>
+            <label for="passworld">Mot de passe</label>
+            <input type="passworld" id="passworld" name="user_passworld">
+        </div>
+        <div>
+            <label for="date">Date de Naissance</label>
+            <input type="date" id="date" date="user_date">
+        </div>
+
+        <P>pour éffacé </P>
+
+        <div class="input reset">
+            <input type="reset" name="effacer" value="effacer">
+        </div>
+
+        <p>pour envoyé</p>
+
+        <div class="button">
+            <button type="submit">Envoyer le message</button>
+        </div>
+
+        <p>Veuillez choisir la meilleure méthode pour vous contacter :</p>
+
+        <div>
+            <input type="radio" id="contactChoice1"
+                   name="contact" value="email">
+            <label for="contactChoice1">Email</label>
+
+            <input type="radio" id="contactChoice2"
+                   name="contact" value="telephone">
+            <label for="contactChoice2">Téléphone</label>
+
+            <input type="radio" id="contactChoice3"
+                   name="contact" value="courrier">
+            <label for="contactChoice3">Courrier</label>
+        </div>
+        <div>
+            <button type="submit">Envoyer</button>
+        </div>
+        <div>
+            <input type="checkbox" id="oui" name="oui">
+            <label for="oui">oui</label>
+        </div>
+        <div>
+            <input type="checkbox" id="non" name="non">
+            <label for="non">non</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ok" name="ok">
+            <label for="ok">ok</label>
+        </div>
+
+
+
+    </form>
+
+</body>
+</html>
