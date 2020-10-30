@@ -14,10 +14,29 @@
         <div>
             <label for="passworld">Mot de passe</label>
             <input type="passworld" id="passworld" name="user_passworld">
-        </div>
-        <div>
+
             <label for="date">Date de Naissance</label>
             <input type="date" id="date" date="user_date">
+        </div>
+
+        <div>
+            <label for="color">couleur</label>
+            <input type="color" id="color"   name="user_color">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <select id="age" name="user_age">
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+            </select>
         </div>
 
         <P>pour éffacé </P>
@@ -35,35 +54,36 @@
         <p>Veuillez choisir la meilleure méthode pour vous contacter :</p>
 
         <div>
+            <label for="contactChoice1">Email</label>
             <input type="radio" id="contactChoice1"
                    name="contact" value="email">
-            <label for="contactChoice1">Email</label>
 
+            <label for="contactChoice2">Téléphone</label>
             <input type="radio" id="contactChoice2"
                    name="contact" value="telephone">
-            <label for="contactChoice2">Téléphone</label>
 
+            <label for="contactChoice3">Courrier</label>
             <input type="radio" id="contactChoice3"
                    name="contact" value="courrier">
-            <label for="contactChoice3">Courrier</label>
         </div>
         <div>
             <button type="submit">Envoyer</button>
         </div>
         <div>
-            <input type="checkbox" id="oui" name="oui">
             <label for="oui">oui</label>
+            <input type="checkbox" id="oui" name="oui">
+
         </div>
         <div>
-            <input type="checkbox" id="non" name="non">
             <label for="non">non</label>
+            <input type="checkbox" id="non" name="non">
+
         </div>
         <div>
-            <input type="checkbox" id="ok" name="ok">
             <label for="ok">ok</label>
+            <input type="checkbox" id="ok" name="ok">
+
         </div>
-
-
 
     </form>
 
